@@ -663,3 +663,28 @@ a[href="/store"]:hover:before{
 }
 .platform-win .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg{
     top: calc(var(--spacing) + 2px)!important}
+
+/* Activity */
+.activityPanel-9icbyU {
+    border-bottom:none;
+    border-top-left-radius:var(--radius);
+    border-top-right-radius:var(--radius);
+    height:16px;
+    overflow: hidden;
+    position:relative;
+    transition: all .2s ease-in;
+}
+.activityPanel-9icbyU:hover,
+.activityPanel-9icbyU:hover::after
+ {background-color:var(--blurple);transition: all .2s ease-in;}
+.gameIconWrapper-zXQ03M{margin-right:5px}
+.actions-zk2vB_{height:0px; width:10px; padding-right:25px}
+.gameIcon-2BIUJ3{height:25px;width:25px}
+
+.activityPanel-9icbyU {
+	 position: relative;
+	 z-index: 0;
+	 /*border-radius: 10px;*/
+	 overflow: hidden;
+     padding:10px;
+}
