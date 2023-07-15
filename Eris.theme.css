@@ -688,3 +688,30 @@ a[href="/store"]:hover:before{
 	 overflow: hidden;
      padding:10px;
 }
+
+.theme-dark {
+    --background-primary: #14161A !important;
+    --background-secondary: var(--background-primary) !important;
+    --background-secondary-alt: #14161A !important;
+    --background-tertiary: var(--background-secondary-alt) !important;
+    --background-modifier-active: var(--background-primary) !important;
+    --background-modifier-selected: var(--background-secondary-alt) !important;
+    --background-message-hover: transparent !important;
+    --background-accent: var(--background-primary) !important;
+    --background-floating: var(--background-secondary-alt) !important;
+    --scrollbar-thin-thumb: var(--background-secondary-alt) !important;
+    --scrollbar-auto-thumb: var(--background-secondary-alt) !important;
+    --scrollbar-auto-track: transparent !important;
+    --channels-default: #c2c2c2 !important;
+    --channeltextarea-background: var(--background-secondary-alt) !important;
+    --deprecated-text-input-bg: var(--background-primary) !important;
+    --text-normal: #ffffff !important;
+    --text-muted: var(--channels-default) !important;
+    --text-timestamp: #969696 !important;
+    --header-primary: var(--text-normal) !important;
+    --header-secondary: var(--channels-default) !important;
+    --interactive-active: #ffffff !important;
+    --interactive-normal: #d0d1d4 !important;
+    --interactive-hover: #eeeeee !important;
+    --highlight-color: #23262a !important;
+}
