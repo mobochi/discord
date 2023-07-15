@@ -715,3 +715,13 @@ a[href="/store"]:hover:before{
     --interactive-hover: #eeeeee !important;
     --highlight-color: #23262a !important;
 }
+
+:root {
+    --brand-experiment: hsl(227, calc(var(--saturation-factor, 1)*58%), 65%) !important;
+    --brand-experiment-200: white !important;
+    --brand-experiment-30a: hsl(227, calc(var(--saturation-factor, 1)*58%), 65%, 0.1) !important;
+    --brand-experiment-500: hsl(227, calc(var(--saturation-factor, 1)*58%), 65%) !important;
+    --brand-experiment-560: hsl(227, calc(var(--saturation-factor, 1)*58%), 65%) !important;
+    --brand-experiment-600: hsl(227, calc(var(--saturation-factor, 1)*55%), 62%) !important;
+    --brand-experiment-15a: hsla(227, calc(var(--saturation-factor, 1)*58%), 65%, 0.149) !important;
+    }
